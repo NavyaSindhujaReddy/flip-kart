@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background:rgb(213, 211, 211);
+}
+.flip{
+  margin-left:50px !important;
+  margin-top:5px !important;
+}
+.fa-magnifying-glass{
+  width:5% !important;
+  padding-top:14px;
+  padding-left:10px;
+  padding-bottom:12px;
+  background:rgb(224, 239, 244) !important;
+  border-radius:15px 0px 0px 15px;
+}
+.inp{
+  margin-top:10px !important;
+  width:90% !important;
+  height:75% !important;
+  background:rgb(224, 239, 244) !important;
+  border-radius:0px 15px 15px 0px;
+  border:none;
+}
+.per i{
+  margin-left:40px;
+  margin-right:10px;
+  margin-top:20px;
+  font-size:20px;
+}
+.row{
+  background-color: white;
+}
+.sales{
+  margin:10px !important;
+}
+.sal{
+  text-align: center;
+}
+.BBD{
+  margin:10px !important;
+}
+.BBD img{
+  width:100% !important;
+}
+.mob{
+  margin:10px !important;
+}
+.ban{
+  width:100% !important;
+}
+.mot{
+  margin-top: 30px;
+}
+.mot{
+  text-align:center;
+}
